@@ -1,5 +1,10 @@
 # ln-auth-python
-From scratch implementation of ln auth
+From scratch implementation of [LNURL-auth](https://github.com/btcontract/lnurl-rfc/blob/master/lnurl-auth.md)
+
+- `ecc.py -->` Eclliptic curve and ECDSA
+- `der.py -->` Decode DER encoded ECDSA signature
+- `bech.py -->` Bech32 encode `lnurl` string
+- `app.py -->` Flask server
 
 ## How to test it with a real Lightning Network/Bitcoin wallet
 

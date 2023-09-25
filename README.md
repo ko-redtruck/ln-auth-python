@@ -1,6 +1,9 @@
 # ln-auth-python
 From scratch implementation of [LNURL-auth](https://github.com/btcontract/lnurl-rfc/blob/master/lnurl-auth.md)
 
+> [!WARNING]
+> This is a (probably) outdated educational project. Do not use in production!
+ 
 - `ecc.py -->` Eclliptic curve and ECDSA
 - `der.py -->` Decode DER encoded ECDSA signature
 - `bech.py -->` Bech32 encode `lnurl` string
